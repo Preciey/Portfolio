@@ -12,7 +12,7 @@
             Building scalable, human-centered web applications with passion and precision.
           </p>
           <div class="mt-4">
-            <p class="font-handwriting text-rose-gold text-lg">
+            <p class="font-handwriting text-[#b76e79] text-lg">
               By Mimie ✨
             </p>
           </div>
@@ -24,7 +24,7 @@
           <ul class="space-y-2">
             <li v-for="link in quickLinks" :key="link.name">
               <a :href="link.href" 
-                 class="text-beige/80 hover:text-rose-gold transition-colors flex items-center gap-2 group">
+                 class="text-beige/80 hover:text-[#b76e79] transition-colors flex items-center gap-2 group">
                 <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
@@ -41,7 +41,7 @@
             <a v-for="social in socialLinks" :key="social.name"
                :href="social.href"
                :aria-label="social.name"
-               class="w-10 h-10 bg-beige/10 rounded-lg flex items-center justify-center hover:bg-rose-gold hover:scale-110 transition-all group animate-glow">
+               class="w-10 h-10 bg-beige/10 rounded-lg flex items-center justify-center hover:bg-[#b76e79] hover:scale-110 transition-all group animate-glow">
               <component :is="social.icon" class="w-5 h-5 text-beige group-hover:text-white transition-colors" />
             </a>
           </div>
@@ -63,15 +63,15 @@
 
         <!-- Additional Links -->
         <div class="flex gap-6 text-sm">
-          <a href="#" class="text-beige/60 hover:text-rose-gold transition-colors">Privacy Policy</a>
-          <a href="#" class="text-beige/60 hover:text-rose-gold transition-colors">Terms of Service</a>
+          <a href="#" class="text-beige/60 hover:text-[#b76e79] transition-colors">Privacy Policy</a>
+          <a href="#" class="text-beige/60 hover:text-[#b76e79] transition-colors">Terms of Service</a>
         </div>
       </div>
 
       <!-- Scroll to Top Button -->
       <div class="mt-8 text-center">
         <button @click="scrollToTop" 
-                class="inline-flex items-center gap-2 px-6 py-3 bg-rose-gold/20 hover:bg-rose-gold text-beige hover:text-white rounded-full transition-all hover:scale-105 group">
+                class="inline-flex items-center gap-2 px-6 py-3 bg-[#b76e79]/20 hover:bg-[#b76e79] text-beige hover:text-white rounded-full transition-all hover:scale-105 group">
           <svg class="w-5 h-5 transform group-hover:-translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
           </svg>

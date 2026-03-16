@@ -23,15 +23,15 @@
 /* === UTILITIES === */
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-rose-gold to-pink-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#b76e79] to-pink-400 bg-clip-text text-transparent;
   }
 
   .bg-gradient-primary {
-    @apply bg-gradient-to-br from-soft-pink via-beige to-rose-gold/20;
+    @apply bg-gradient-to-br from-soft-pink via-beige to-[#b76e79]/20;
   }
 
   .bg-gradient-dark {
-    @apply bg-gradient-to-br from-dark-bg via-dark-card to-rose-gold/10;
+    @apply bg-gradient-to-br from-dark-bg via-dark-card to-[#b76e79]/10;
   }
 }
 

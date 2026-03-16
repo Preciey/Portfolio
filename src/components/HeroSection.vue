@@ -12,7 +12,7 @@
     </div>
 
     <!-- Floating gradient orbs -->
-    <div class="absolute top-20 left-10 w-72 h-72 bg-rose-gold/20 rounded-full blur-3xl animate-float"></div>
+    <div class="absolute top-20 left-10 w-72 h-72 bg-[#b76e79]/20 rounded-full blur-3xl animate-float"></div>
     <div class="absolute bottom-20 right-10 w-96 h-96 bg-pink-300/20 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
 
     <!-- Content -->
@@ -20,7 +20,7 @@
       <div class="max-w-4xl mx-auto space-y-8 animate-fade-in">
         <!-- Greeting -->
         <div class="inline-block">
-          <p class="text-rose-gold font-handwriting text-2xl md:text-3xl mb-4">Hello, I'm</p>
+          <p class="text-[#b76e79] font-handwriting text-2xl md:text-3xl mb-4">Hello, I'm</p>
         </div>
 
         <!-- Name -->
@@ -43,10 +43,10 @@
 
         <!-- CTA Buttons -->
         <div class="flex flex-col flex-row gap-4 justify-center items-center mt-12">
-          <a href="#projects" class="border-2 rounded-full py-2 px-6 bg-[#b76e79] text-white hover:bg-white hover:text-[#b76e79] hover:ease-in transition-all">
+          <a href="#projects" class="border-2 border-[#b76e79] rounded-full py-2 px-6 bg-[#b76e79] text-white hover:bg-white hover:text-[#b76e79] hover:ease-in transition-all">
             <span>View My Work</span>
           </a>
-          <a href="#contact" class="border-2 rounded-full py-2 px-6  hover:bg-[#b76e79] text-[#b76e79] hover:text-white transition-all">
+          <a href="#contact" class="border-2 rounded-full py-2 px-6 hover:border-[#b76e79] hover:bg-[#b76e79] text-[#b76e79] hover:text-white transition-all">
             Let's Connect
           </a>
         </div>

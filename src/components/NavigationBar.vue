@@ -17,12 +17,12 @@
              :class="[
                'text-sm font-semibold transition-all duration-300 relative group',
                activeLink === link.name 
-                 ? 'text-rose-gold' 
-                 : 'text-gray-700  hover:text-rose-gold'
+                 ? 'text-[#b76e79]' 
+                 : 'text-gray-700  hover:text-[#b76e79]'
              ]">
             {{ link.name }}
             <span :class="[
-              'absolute bottom-0 left-0 w-full h-0.5 bg-rose-gold transform origin-left transition-transform duration-300',
+              'absolute bottom-0 left-0 w-full h-0.5 bg-[#b76e79] transform origin-left transition-transform duration-300',
               activeLink === link.name ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'
             ]"></span>
           </a>
@@ -39,8 +39,8 @@
                :class="[
                  'px-4 py-2 rounded-lg font-semibold transition-all',
                  activeLink === link.name 
-                   ? 'bg-rose-gold text-white' 
-                   : 'text-gray-700 dark:text-gray-300 hover:bg-rose-gold/20'
+                   ? 'bg-[#b76e79] text-white' 
+                   : 'text-gray-700 dark:text-gray-300 hover:bg-[#b76e79]/20'
                ]">
               {{ link.name }}
             </a>
