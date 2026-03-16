@@ -19,11 +19,11 @@ import FloatingButton from './components/FloatingButton.vue'
     <!-- Main Content -->
     <main>
       <HeroSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
       <ExperienceSection />
       <EducationSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <AboutSection />
       <ContactSection />
     </main>
 
