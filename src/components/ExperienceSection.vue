@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" class="section-container bg-gradient-to-b from-soft-pink/30 to-white dark:from-dark-card/30 dark:to-dark-bg">
+  <section id="experience" class="section-container ">
     <div class="max-w-5xl mx-auto">
       <!-- Section Title -->
       <h2 class="section-title reveal">
@@ -48,16 +48,6 @@
                   {{ exp.description }}
                 </p>
 
-                <!-- Testimonial -->
-                <div class="mt-4 p-4 bg-soft-pink/50 dark:bg-dark-bg/50 rounded-lg border-l-4 border-rose-gold">
-                  <p class="text-sm italic text-gray-700 dark:text-gray-300">
-                    "{{ exp.testimonial }}"
-                  </p>
-                  <p class="text-xs text-rose-gold mt-2 font-semibold">
-                    — {{ exp.testimonialAuthor }}
-                  </p>
-                </div>
-
                 <!-- Key Achievements -->
                 <div class="mt-4">
                   <ul class="space-y-2">
@@ -90,8 +80,6 @@ export default {
           company: 'Clear Access',
           period: 'Mar 2025 – Present',
           description: 'Leading development of innovative web applications using Vue.js and Laravel. Collaborating with cross-functional teams to deliver high-quality software solutions.',
-          testimonial: 'Precedence consistently delivers exceptional work and demonstrates strong problem-solving skills. Her attention to detail and commitment to code quality make her an invaluable team member.',
-          testimonialAuthor: 'Team Lead, Clear Access',
           achievements: [
             'Developed and deployed 5+ major features for the library management system',
             'Improved application performance by 40% through code optimization',
@@ -103,8 +91,6 @@ export default {
           company: 'Clear Access',
           period: 'Mar 2024 – Mar 2025',
           description: 'Gained hands-on experience in full-stack development, working on various projects including admin portals and e-commerce integrations.',
-          testimonial: 'During her internship, Precedence showed remarkable growth and adaptability. She quickly mastered new technologies and contributed meaningfully to our projects.',
-          testimonialAuthor: 'Senior Developer, Clear Access',
           achievements: [
             'Built responsive UI components using Vue.js and Tailwind CSS',
             'Implemented RESTful APIs with Laravel backend',

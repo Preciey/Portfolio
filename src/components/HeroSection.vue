@@ -1,7 +1,7 @@
 <template>
-  <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+  <section id="home" class="relative min-h-screen bg-orange-100 flex items-center justify-center overflow-hidden">
     <!-- Animated Background -->
-    <div class="absolute inset-0 bg-gradient-primary dark:bg-gradient-dark"></div>
+    <div class="absolute inset-0 "></div>
     
     <!-- Particles Background -->
     <div class="particles-bg">
@@ -24,8 +24,8 @@
         </div>
 
         <!-- Name -->
-        <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6">
-          <span class="text-gradient">Precedence Ratambani</span>
+        <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-[#b76e79]">
+          Precedence Ratambani
         </h1>
 
         <!-- Headline -->
@@ -36,17 +36,17 @@
         <!-- Subtext with tech stack -->
         <div class="flex flex-wrap justify-center gap-3 mb-8">
           <span v-for="tech in techStack" :key="tech" 
-                class="px-4 py-2 bg-white/80 dark:bg-dark-card/80 backdrop-blur-sm rounded-full text-sm font-semibold text-gray-700 dark:text-gray-300 shadow-md hover:shadow-lg hover:scale-105 transition-all">
+                class="px-4 py-2 bg-white/80 rounded-full text-sm font-semibold text-gray-700 shadow-md hover:shadow-lg hover:scale-105 transition-all">
             {{ tech }}
           </span>
         </div>
 
         <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
-          <a href="#projects" class="btn-primary inline-flex items-center gap-2">
+        <div class="flex flex-col flex-row gap-4 justify-center items-center mt-12">
+          <a href="#projects" class="border-2 rounded-full py-2 px-6 bg-[#b76e79] text-white hover:bg-white hover:text-[#b76e79] hover:ease-in transition-all">
             <span>View My Work</span>
           </a>
-          <a href="#contact" class="btn-secondary">
+          <a href="#contact" class="border-2 rounded-full py-2 px-6  hover:bg-[#b76e79] text-[#b76e79] hover:text-white transition-all">
             Let's Connect
           </a>
         </div>
@@ -83,8 +83,4 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-/* Additional component-specific styles if needed */
-</style>
 
