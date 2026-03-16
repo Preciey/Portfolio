@@ -45,20 +45,10 @@
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
           <a href="#projects" class="btn-primary inline-flex items-center gap-2">
             <span>View My Work</span>
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
           </a>
           <a href="#contact" class="btn-secondary">
             Let's Connect
           </a>
-        </div>
-
-        <!-- Scroll Indicator -->
-        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <svg class="w-6 h-6 text-rose-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-          </svg>
         </div>
       </div>
     </div>
@@ -70,7 +60,7 @@ export default {
   name: 'HeroSection',
   data() {
     return {
-      techStack: ['Junior Software Developer', 'Vue.js', 'Laravel', 'Tailwind CSS', 'SQL']
+      techStack: ['Javascript', 'Vue.js', 'Laravel', 'Tailwind CSS', 'SQL']
     }
   },
   methods: {
