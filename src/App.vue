@@ -8,7 +8,6 @@ import ExperienceSection from './components/ExperienceSection.vue'
 import EducationSection from './components/EducationSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import FooterSection from './components/FooterSection.vue'
-import FloatingButton from './components/FloatingButton.vue'
 </script>
 
 <template>
@@ -30,12 +29,6 @@ import FloatingButton from './components/FloatingButton.vue'
     <!-- Footer -->
     <FooterSection />
 
-    <!-- Floating Connect Button -->
-    <FloatingButton />
   </div>
 </template>
-
-<style>
-/* Global styles are in main.css */
-</style>
 
