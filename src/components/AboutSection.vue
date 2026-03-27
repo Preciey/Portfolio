@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="section-container bg-white ">
+  <section id="about" class="section-container bg-white pb-12 ">
     <div class="max-w-6xl mx-auto">
       <!-- Section Title -->
       <h2 class="section-title text-4xl font-bold text-[#b76e79] text-center pt-12 mb-12">

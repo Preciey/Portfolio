@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="section-container bg-rose-50/60 relative overflow-hidden mt-12 pb-12">
+  <section id="contact" class="section-container bg-rose-50/60 relative overflow-hidden mt-12 pb-24">
     <!-- Background Decoration -->
     <div class="absolute top-20 right-0 w-96 h-96 bg-[#b76e79]/10 rounded-full blur-3xl"></div>
     <div class="absolute bottom-20 left-0 w-96 h-96 bg-pink-300/10 rounded-full blur-3xl"></div>
@@ -150,9 +150,9 @@
               </a>
 
               <!-- Location -->
-              <div class="flex items-center gap-4 p-4 bg-soft-pink/50 rounded-xl">
-                <div class="w-12 h-12 bg-[#b76e79]/20 rounded-lg flex items-center justify-center">
-                  <svg class="w-6 h-6 text-[#b76e79]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="flex items-center gap-4 p-4 bg-soft-pink/50 rounded-xl hover:bg-[#b76e79]/20 transition-all group">
+                <div class="w-12 h-12 bg-[#b76e79]/20 rounded-lg flex items-center justify-center group-hover:bg-[#b76e79] group-hover:scale-110 transition-all">
+                  <svg class="w-6 h-6 text-[#b76e79] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                   </svg>

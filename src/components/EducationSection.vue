@@ -1,5 +1,5 @@
 <template>
-  <section id="education" class="section-container bg-rose-50/60 pb-12 ">
+  <section id="education" class="section-container bg-rose-50/60 pb-24 ">
     <div class="max-w-5xl mx-auto">
       <!-- Section Title -->
       <h2 class="section-title text-4xl font-bold text-[#b76e79] text-center pt-12">
@@ -9,7 +9,7 @@
       <!-- Education Grid -->
       <div class="grid md:grid-cols-3 gap-6 mt-12">
         <div v-for="(edu, index) in education" :key="index"
-             class="card reveal group relative overflow-hidden  shadow-md rounded-md p-8"
+             class="card reveal group relative overflow-hidden bg-white shadow-md rounded-md p-8"
              :style="{ animationDelay: `${index * 0.1}s` }">
           
           <!-- Decorative Corner -->
@@ -75,7 +75,7 @@
         </h3>
         <div class="grid md:grid-cols-2 gap-6">
           <div v-for="cert in certifications" :key="cert.title"
-               class="flex items-start gap-4 p-6 bg-rose-50/60  rounded-xl hover:shadow-lg transition-all">
+               class="flex items-start gap-4 p-6 bg-white  rounded-xl hover:shadow-lg transition-all">
             <div class="w-12 h-12 bg-[#b76e79]/20 rounded-lg flex items-center justify-center flex-shrink-0">
               <svg class="w-6 h-6 text-[#b76e79]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>

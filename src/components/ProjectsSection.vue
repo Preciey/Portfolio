@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="section-container bg-rose-50/60 pb-12">
+  <section id="projects" class="section-container bg-rose-50/60 pb-24">
     <div class="max-w-6xl mx-auto">
       <!-- Section Title -->
       <h2 class="section-title text-4xl font-bold text-[#b76e79] text-center pt-12">
@@ -9,7 +9,7 @@
       <!-- Projects Grid -->
       <div class="grid md:grid-cols-2 gap-8 mt-12">
         <div v-for="(project, index) in projects" :key="index" 
-             class="card reveal group relative overflow-hidden shadow-md rounded-md p-6"
+             class="card reveal group relative overflow-hidden shadow-md rounded-md p-6 bg-white"
              :style="{ animationDelay: `${index * 0.1}s` }"
              @mouseenter="hoveredProject = index"
              @mouseleave="hoveredProject = null">
@@ -24,7 +24,7 @@
             
             <!-- Code Snippet Overlay on Hover -->
             <div v-if="hoveredProject === index" 
-                 class="absolute inset-0 bg-dark-bg/95 backdrop-blur-sm flex items-center justify-center p-6 animate-fade-in">
+                 class="absolute inset-0 backdrop-blur-sm flex items-center justify-center p-6 animate-fade-in">
               <pre class="text-xs text-green-400 font-mono overflow-hidden">
 <code>{{ project.codeSnippet }}</code>
               </pre>
