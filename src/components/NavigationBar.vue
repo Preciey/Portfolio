@@ -3,11 +3,7 @@
     'fixed top-0 left-0 right-0 z-50 transition-all duration-300', isScrolled ? 'bg-white/90 ' : 'bg-transparent'
   ]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-20">
-        <!-- Logo -->
-        <a href="#home" class="text-2xl font-bold">
-         PR
-        </a>
+      <div class="flex  items-center h-20">
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center gap-8">
@@ -31,7 +27,7 @@
 
       <!-- Mobile Menu -->
       <transition name="slide-down">
-        <div v-if="isMobileMenuOpen" class="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
+        <div v-if="isMobileMenuOpen" class="md:hidden py-4 border-t border-gray-200">
           <div class="flex flex-col gap-4">
             <a v-for="link in navLinks" :key="link.name"
                :href="link.href"
@@ -40,7 +36,7 @@
                  'px-4 py-2 rounded-lg font-semibold transition-all',
                  activeLink === link.name 
                    ? 'bg-[#b76e79] text-white' 
-                   : 'text-gray-700 dark:text-gray-300 hover:bg-[#b76e79]/20'
+                   : 'text-gray-700 hover:bg-[#b76e79]/20'
                ]">
               {{ link.name }}
             </a>

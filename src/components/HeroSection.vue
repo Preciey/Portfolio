@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative min-h-screen bg-orange-100 flex items-center justify-center overflow-hidden">
+  <section id="home" class="relative min-h-screen bg-rose-50 flex items-center justify-center overflow-hidden">
     <!-- Animated Background -->
     <div class="absolute inset-0 "></div>
     
@@ -29,7 +29,7 @@
         </h1>
 
         <!-- Headline -->
-        <h2 class="text-2xl md:text-3xl lg:text-4xl font-display text-gray-700 dark:text-gray-300 mb-6">
+        <h2 class="text-2xl md:text-3xl lg:text-4xl font-display text-gray-700 mb-6">
           I build scalable, human-centered web applications.
         </h2>
 

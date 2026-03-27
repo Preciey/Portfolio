@@ -1,5 +1,5 @@
 <template>
-  <section id="education" class="section-container bg-white dark:bg-dark-bg">
+  <section id="education" class="section-container bg-rose-50/60 pb-12 ">
     <div class="max-w-5xl mx-auto">
       <!-- Section Title -->
       <h2 class="section-title text-4xl font-bold text-[#b76e79] text-center pt-12">
@@ -27,7 +27,7 @@
           </div>
 
           <!-- Degree -->
-          <h3 class="font-display text-xl font-bold text-gray-800 dark:text-gray-200 mb-2 group-hover:text-[#b76e79] transition-colors">
+          <h3 class="font-display text-xl font-bold text-gray-800 mb-2 group-hover:text-[#b76e79] transition-colors">
             {{ edu.degree }}
           </h3>
 
@@ -37,7 +37,7 @@
           </p>
 
           <!-- Period -->
-          <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+          <p class="text-sm text-gray-600  mb-4">
             {{ edu.period }}
           </p>
 
@@ -46,18 +46,18 @@
             <span :class="[
               'px-3 py-1 rounded-full text-xs font-semibold',
               edu.status === 'In Progress' 
-                ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400'
-                : 'bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400'
+                ? 'bg-green-100 text-green-700 '
+                : 'bg-blue-100 text-blue-700'
             ]">
               {{ edu.status }}
             </span>
           </div>
 
           <!-- Highlights -->
-          <div v-if="edu.highlights" class="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+          <div v-if="edu.highlights" class="mt-4 pt-4 border-t border-gray-200 ">
             <ul class="space-y-2">
               <li v-for="highlight in edu.highlights" :key="highlight"
-                  class="flex items-start gap-2 text-sm text-gray-600 dark:text-gray-400">
+                  class="flex items-start gap-2 text-sm text-gray-600 ">
                 <svg class="w-4 h-4 text-[#b76e79] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                 </svg>
@@ -82,8 +82,8 @@
               </svg>
             </div>
             <div>
-              <h4 class="font-semibold text-gray-800 dark:text-gray-200 mb-1">{{ cert.title }}</h4>
-              <p class="text-sm text-gray-600 dark:text-gray-400">{{ cert.description }}</p>
+              <h4 class="font-semibold text-gray-800 mb-1">{{ cert.title }}</h4>
+              <p class="text-sm text-gray-600 ">{{ cert.description }}</p>
             </div>
           </div>
         </div>

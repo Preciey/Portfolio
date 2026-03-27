@@ -1,9 +1,9 @@
 <template>
-  <section id="projects" class="section-container bg-white dark:bg-dark-bg">
-    <div class="max-w-7xl mx-auto">
+  <section id="projects" class="section-container bg-rose-50/60 pb-12">
+    <div class="max-w-6xl mx-auto">
       <!-- Section Title -->
       <h2 class="section-title text-4xl font-bold text-[#b76e79] text-center pt-12">
-        Featured <span class="text-gradient">Projects</span>
+        Featured Projects
       </h2>
 
       <!-- Projects Grid -->
@@ -33,17 +33,17 @@
 
           <!-- Project Info -->
           <div class="space-y-4">
-            <h3 class="font-display text-2xl font-semibold text-gray-800 dark:text-gray-200 group-hover:text-[#b76e79] transition-colors">
+            <h3 class="font-display text-2xl font-semibold text-gray-800  group-hover:text-[#b76e79] transition-colors">
               {{ project.title }}
             </h3>
-            <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p class="text-gray-600 leading-relaxed">
               {{ project.description }}
             </p>
 
             <!-- Tech Stack Tags -->
             <div class="flex flex-wrap gap-2 pt-2">
               <span v-for="tech in project.techStack" :key="tech"
-                    class="px-3 py-1 bg-[#b76e79]/10 dark:bg-[#b76e79]/20 text-[#b76e79] text-xs font-semibold rounded-full">
+                    class="px-3 py-1 bg-[#b76e79]/10 text-[#b76e79] text-xs font-semibold rounded-full">
                 {{ tech }}
               </span>
             </div>

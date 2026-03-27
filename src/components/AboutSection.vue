@@ -1,9 +1,9 @@
 <template>
-  <section id="about" class="section-container bg-white dark:bg-dark-bg">
+  <section id="about" class="section-container bg-white ">
     <div class="max-w-6xl mx-auto">
       <!-- Section Title -->
-      <h2 class="section-title reveal">
-        About <span class="text-gradient">Me</span>
+      <h2 class="section-title text-4xl font-bold text-[#b76e79] text-center pt-12 mb-12">
+        About Me
       </h2>
 
       <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -25,26 +25,25 @@
             </div>
           </div>
         </div>
-
         <!-- About Content -->
         <div class="space-y-6 reveal">
-          <div class="prose prose-lg dark:prose-invert">
-            <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+          <div class="prose prose-lg ">
+            <p class="text-lg text-gray-700  leading-relaxed">
               I'm an <span class="font-semibold text-[#b76e79]">innovative software developer</span> passionate about creating functional, scalable, and visually refined digital experiences. I specialize in front-end and back-end development using <span class="font-semibold">Vue.js, Laravel, and SQL</span>.
             </p>
-            <p class="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            <p class="text-lg text-gray-700  leading-relaxed">
               I love solving complex challenges, optimizing performance, and collaborating in agile teams to deliver exceptional user experiences.
             </p>
           </div>
 
           <!-- Beyond the Code -->
-          <div class="mt-8 p-6 bg-gradient-to-br from-soft-pink to-beige dark:from-dark-card dark:to-dark-card/50 rounded-2xl shadow-lg">
-            <h3 class="font-display text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+          <div class="mt-8 p-6 bg-gradient-to-br from-soft-pink to-beige  rounded-2xl shadow-lg">
+            <h3 class="font-display text-2xl font-semibold mb-4 text-gray-800 ">
               Beyond the Code
             </h3>
             <div class="flex flex-wrap gap-3">
               <span v-for="interest in interests" :key="interest"
-                    class="px-4 py-2 bg-white/70 dark:bg-dark-bg/70 backdrop-blur-sm rounded-full text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-[#b76e79] hover:text-white transition-all cursor-default">
+                    class="px-4 py-2 bg-white/70  backdrop-blur-sm rounded-full text-sm font-medium text-gray-700  hover:bg-[#b76e79] hover:text-white transition-all cursor-default">
                 {{ interest }}
               </span>
             </div>
