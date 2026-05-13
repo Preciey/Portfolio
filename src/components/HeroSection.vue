@@ -35,11 +35,10 @@
           Precedence Ratambani
         </h1>
 
-        <!-- Headline -->
-        <h2 class="text-lg sm:text-xl md:text-3xl lg:text-4xl font-display text-gray-700 max-w-3xl mx-auto">
-          I build scalable, human-centered web applications.
-        </h2>
-
+        <!-- Supporting line -->
+        <p class="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
+          I design and develop production-ready systems, e-commerce platforms, and interactive web experiences for personal brands and clients.
+        </p>
         <!-- Tech stack -->
         <div class="flex flex-wrap justify-center gap-2 md:gap-3 pt-4">
 

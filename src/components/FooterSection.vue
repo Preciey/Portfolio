@@ -9,7 +9,7 @@
             Precedence Ratambani
           </h3>
           <p class="text-beige/80 text-sm leading-relaxed">
-            Building scalable, human-centered web applications with passion and precision.
+            Full Stack Developer building scalable web applications, modern interfaces, and client-focused digital solutions.
           </p>
         </div>
 
@@ -47,7 +47,7 @@
             </div>
           </div>
           <p class="text-beige/80 text-sm">
-            Let's collaborate on your next project!
+            Open to work and freelance opportunities.
           </p>
         </div>
       </div>

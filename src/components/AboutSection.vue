@@ -14,13 +14,13 @@
         <div class="space-y-5">
 
           <p class="text-lg text-gray-700 leading-relaxed">
-            I'm an
-            <span class="font-semibold text-[#b76e79]">innovative software developer</span>
-            passionate about building functional, scalable, and visually refined digital experiences.
+            I'm a
+            <span class="font-semibold text-[#b76e79]">Full Stack Developer</span>
+            focused on building scalable, high-performance web applications and modern digital experiences.
           </p>
 
           <p class="text-lg text-gray-700 leading-relaxed">
-            I specialize in <span class="font-semibold">Vue.js, Laravel, and SQL</span>, and I enjoy solving complex problems through clean and efficient code.
+            I work primarily with <span class="font-semibold">Vue.js, Laravel, JavaScript, and SQL</span>, turning complex requirements into clean, efficient, and maintainable systems.
           </p>
 
         </div>
@@ -47,7 +47,7 @@
         <!-- QUOTE -->
         <div>
           <p class="font-handwriting text-3xl text-[#b76e79] leading-relaxed">
-            “Creating beautiful experiences, one line of code at a time.”
+            “Building thoughtful, user-focused digital products with clean code and intentional design.”
           </p>
         </div>
 
@@ -63,10 +63,10 @@ export default {
     return {
       interests: [
         "UI Design",
-        "Cloud Computing",
-        "Data Engineering",
-        "Creative Tech",
-        "Web Performance",
+        "System Architecture",
+        "API Development",
+        "E-commerce Solutions",
+        "Performance Optimization",
         "User Experience"
       ]
     };
