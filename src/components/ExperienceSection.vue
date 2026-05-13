@@ -1,7 +1,7 @@
 <template>
-  <section id="experience" class="section-container bg-rose-50/10 py-16 md:py-24 px-6">
+  <section id="experience" class="section-container bg-rose-50/10 mt-10 md:mt-12 px-6">
 
-    <div class="max-w-5xl mx-auto">
+    <div class="max-w-4xl mx-auto">
 
       <!-- Section Title -->
       <h2 class="section-title text-3xl md:text-4xl font-bold text-[#b76e79] text-center">
@@ -121,7 +121,7 @@ export default {
         {
           position: 'Junior Software Developer',
           company: 'Clear Access',
-          period: 'Mar 2025 – Present',
+          period: 'Mar 2025 – May 2026',
 
           description:
             'Leading development of innovative web applications using Vue.js and Laravel. Collaborating with cross-functional teams to deliver high-quality software solutions.',

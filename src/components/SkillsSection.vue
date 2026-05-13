@@ -9,7 +9,7 @@
       <!-- Skills Grid -->
       <div class="grid md:grid-cols-3 gap-8 mt-12 p-8 ">
         <!-- Frontend Skills -->
-        <div class="card reveal group shadow-md rounded-md p-6 ">
+        <div class="card reveal group bg-pink-50 shadow-md rounded-md p-6 ">
           <div class="flex items-center gap-3 mb-6">
             <div class="w-12 h-12 bg-[#b76e79]/20 rounded-lg flex items-center justify-center group-hover:bg-[#b76e79] group-hover:scale-110 transition-all">
               <svg class="w-6 h-6 text-[#b76e79] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -34,7 +34,7 @@
         </div>
 
         <!-- Backend Skills -->
-        <div class="card reveal group shadow-md rounded-md p-6" style="animation-delay: 0.1s;">
+        <div class="card reveal group bg-pink-50 shadow-md rounded-md p-6" style="animation-delay: 0.1s;">
           <div class="flex items-center gap-3 mb-6">
             <div class="w-12 h-12 bg-[#b76e79]/20 rounded-lg flex items-center justify-center group-hover:bg-[#b76e79] group-hover:scale-110 transition-all">
               <svg class="w-6 h-6 text-[#b76e79] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@
         </div>
 
         <!-- Tools & Soft Skills -->
-        <div class="card reveal group shadow-md rounded-md p-6" style="animation-delay: 0.2s;">
+        <div class="card reveal group bg-pink-50 shadow-md rounded-md p-6" style="animation-delay: 0.2s;">
           <div class="flex items-center gap-3 mb-6">
             <div class="w-12 h-12 bg-[#b76e79]/20 rounded-lg flex items-center justify-center group-hover:bg-[#b76e79] group-hover:scale-110 transition-all">
               <svg class="w-6 h-6 text-[#b76e79] group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">

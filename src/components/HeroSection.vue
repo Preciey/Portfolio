@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="relative min-h-screen bg-rose-50 flex items-center justify-center overflow-hidden px-6">
+  <section id="home" class="relative min-h-screen md:py-20 bg-rose-50 flex items-center justify-center overflow-hidden px-6">
 
     <!-- Animated Background -->
     <div class="absolute inset-0"></div>

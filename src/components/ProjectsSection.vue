@@ -1,13 +1,13 @@
 <template>
   <section id="projects" class="section-container bg-rose-50/60 pb-24">
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-5xl mx-auto">
       <!-- Section Title -->
       <h2 class="section-title text-4xl font-bold text-[#b76e79] text-center pt-12">
         Featured Projects
       </h2>
 
       <!-- Projects Grid -->
-      <div class="grid md:grid-cols-2 gap-8 mt-12">
+      <div class="grid md:grid-cols-4 gap-8 mt-12">
         <div v-for="(project, index) in projects" :key="index" 
              class="card reveal group relative overflow-hidden shadow-md rounded-md p-6 bg-white"
              :style="{ animationDelay: `${index * 0.1}s` }"
